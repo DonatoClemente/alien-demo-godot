@@ -18,3 +18,4 @@ This is a simple, low-poly barebones project for the IGDA at UTRGV October works
   - venting
   - backstage and active
   - simple state machine
+  - POI barebones in place 
