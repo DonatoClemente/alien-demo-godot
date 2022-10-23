@@ -12,5 +12,5 @@ func _on_Area_body_entered(body):
 
 func _on_Area_body_exited(body):
 	if body == Global.get_player():
-		yield(get_tree().create_timer(4.0),"timeout")
+		yield(get_tree().create_timer(10.0),"timeout")
 		Global.add_vent(self)

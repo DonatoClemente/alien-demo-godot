@@ -8,7 +8,7 @@ extents = Vector3( 3.4, 0.1, 2.9 )
 [node name="ScifiCorridorRoomBlock" type="StaticBody"]
 
 [node name="SciFi_Corridor_RoomBlock" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1.05, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+transform = Transform( 1.05, 0, 0, 0, 1, 0, 0, 0, 1.05, 0, 0, 0 )
 
 [node name="CollisionShape5" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.102601, 0 )
